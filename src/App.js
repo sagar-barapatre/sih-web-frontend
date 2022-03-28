@@ -8,9 +8,7 @@ import NewComplain from "./components/newcomplain.component";
 import DatatablePage from "./components/Pagination";
 import Feedback from "./components/Feedback";
 export class App extends Component {
-
   render() {
-  
   return (
     <Router>
       <div className="App">
@@ -55,9 +53,12 @@ export class App extends Component {
             </div>
           </div>
         </nav>
-        <br></br>
-        <br></br>
-        <br></br>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <div className="auth-wrapper">
           <div className="auth-inner">
             <Switch>

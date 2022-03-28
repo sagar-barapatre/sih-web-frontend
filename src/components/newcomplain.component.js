@@ -26,7 +26,7 @@ export default function NewComplain() {
             <option>Email ID</option>
           </select>
         </div>
-
+        <br></br>
         <div className="form-group">
           <label>User ID</label>
           <input
@@ -36,6 +36,7 @@ export default function NewComplain() {
             placeholder="To be fetched from MongoDB"
           />
         </div>
+        <br></br>
         <div className="form-group">
           <label>Date</label>
           <input
@@ -46,6 +47,7 @@ export default function NewComplain() {
           />
         </div>
         <br></br>
+        
         <button
           variant="primary"
           onClick={handleShow}
@@ -69,7 +71,7 @@ export default function NewComplain() {
           </Modal.Footer>
         </Modal>
       </form>
-      <Footer/>
+      <Footer />
     </div>
   );
   }

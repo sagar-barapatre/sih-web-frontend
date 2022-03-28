@@ -19,6 +19,7 @@ export default class Login extends Component {
             Log In
           </button>
         </form>
+        <br/>
         <Footer />
       </div>
     );
